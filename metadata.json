@@ -1,8 +1,0 @@
-{
-  "name": "Fadrodzak",
-  "description": "Ruang Sastra & Komunitas Aksara",
-  "permissions": [],
-  "capabilities": [
-    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
-  ]
-}
