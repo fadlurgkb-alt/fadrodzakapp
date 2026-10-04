@@ -1,0 +1,35 @@
+<svg width="256" height="256" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="terracottaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C85A32" />
+      <stop offset="60%" stop-color="#AD4620" />
+      <stop offset="100%" stop-color="#7E2D11" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="bookPageGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF9" />
+      <stop offset="100%" stop-color="#F3ECE0" />
+    </linearGradient>
+  </defs>
+
+  <circle cx="50" cy="50" r="46" stroke="url(#terracottaGrad)" stroke-width="1.8" stroke-opacity="0.4" />
+  <circle cx="50" cy="50" r="42" stroke="url(#goldGrad)" stroke-width="1.2" stroke-dasharray="3 3" stroke-opacity="0.7" />
+
+  <path d="M50 78 C35 70 20 74 15 76 C15 54 22 46 36 44 C42 43 47 47 50 51 C53 47 58 43 64 44 C78 46 85 54 85 76 C80 74 65 70 50 78 Z" fill="url(#bookPageGrad)" stroke="url(#terracottaGrad)" stroke-width="1.8" stroke-linejoin="round" />
+  
+  <path d="M23 60 C32 58 40 61 46 64" stroke="#7A6B63" stroke-width="1" stroke-opacity="0.4" stroke-linecap="round" />
+  <path d="M24 67 C32 65 40 67 46 70" stroke="#7A6B63" stroke-width="1" stroke-opacity="0.4" stroke-linecap="round" />
+  <path d="M77 60 C68 58 60 61 54 64" stroke="#7A6B63" stroke-width="1" stroke-opacity="0.4" stroke-linecap="round" />
+  <path d="M76 67 C68 65 60 67 54 70" stroke="#7A6B63" stroke-width="1" stroke-opacity="0.4" stroke-linecap="round" />
+
+  <path d="M50 14 L62 42 C64 47 62 55 58 58 L50 63 L42 58 C38 55 36 47 38 42 L50 14 Z" fill="url(#terracottaGrad)" stroke="#7E2D11" stroke-width="1" />
+  <path d="M50 20 L58 42 C59 45 57 51 54 53 L50 56 L46 53 C43 51 41 45 42 42 L50 20 Z" fill="url(#goldGrad)" opacity="0.9" />
+  <line x1="50" y1="14" x2="50" y2="37" stroke="#3A1700" stroke-width="1.2" stroke-linecap="round" />
+  <circle cx="50" cy="37" r="2.2" fill="#3A1700" />
+
+  <path d="M50 7 L51.5 10.5 L55 12 L51.5 13.5 L50 17 L48.5 13.5 L45 12 L48.5 10.5 Z" fill="url(#goldGrad)" />
+</svg>
